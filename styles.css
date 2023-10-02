@@ -186,6 +186,7 @@ nav{
 
     .nav-links li a:hover::before{
       width: 0%;
+      opacity: 0;
   }
 }
 /*Animating Hamburger Icon on Click*/

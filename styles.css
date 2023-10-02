@@ -183,6 +183,10 @@ nav{
     li.fade{
         opacity: 1;
     }
+
+    .nav-links li a:hover::before{
+      width: 0%;
+  }
 }
 /*Animating Hamburger Icon on Click*/
 .toggle .line1{

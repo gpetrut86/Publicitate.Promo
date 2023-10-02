@@ -28,3 +28,23 @@ $(document).ready(function() {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal
+    var modalImg = document.getElementById('img01');
+
+    // Use event delegation to handle click on any image inside the gallery container
+    document.getElementById('gallerySectionId').addEventListener('click', function (e) {
+        if (e.target.tagName === 'IMG') {
+            modal.style.display = "block";
+            modalImg.src = e.target.src;
+        }
+    });
+
+    // Get the <span> element that closes the modal
+    modal.addEventListener('click', function () {
+        modal.style.display = "none";
+    });
+});

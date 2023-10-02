@@ -479,7 +479,7 @@ nav{
     width: 466px;
   }
   .divider {
-    background-color: var(--second-text-color);
+    background-color: var(--main-text-color);
     height: 1px;
     width: 160px;
   }
@@ -550,3 +550,72 @@ footer {
 
   }
   
+
+
+
+   /* Basic styling for the contact section */
+   .contact-section {
+    background-color: var(--main-text-color);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--main-bg-color);
+}
+
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    margin: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+.contact-content a{
+  color: var(--main-bg-color);
+}
+
+.contact-icon {
+    margin-right: 5px;
+}
+
+/* Mobile styling */
+@media (max-width: 600px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-item {
+        margin: 10px 0;
+    }
+}
+
+
+
+.rainbow-bar {
+  display: flex;
+  width: 100%;
+  height: 3px; /* Adjust the height as needed */
+  --color1: #2c3e50;
+  --color2: #16a085;
+}
+
+.rainbow-bar div {
+  flex: 1;
+}
+
+.color1  { background-color: var(--color1);    }
+.color2  { background-color: var(--color2); }
+.color3  { background-color: var(--color1); }
+.color4  { background-color: var(--color2);  }
+.color5  { background-color: var(--color1);   }
+.color6  { background-color: var(--color2); }
+.color7  { background-color: var(--color1); }

@@ -44,9 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Usage example:
     centerOnClick('contactBtn', 'contactSectionId');
-    centerOnClick('contactBtn1', 'contactSectionId');
-    centerOnClick('contactBtn2', 'contactSectionId');
-    centerOnClick('contactBtn3', 'contactSectionId');
     centerOnClick('aboutBtn', 'aboutSectionId');
     centerOnClick('galleryBtn', 'gallerySectionId');
     centerOnClick('serviceBtn', 'serviceSectionId');
